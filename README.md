@@ -6,11 +6,13 @@
 
    ```bash
    git clone https://github.com/eternal-procrastinator/web-library.git
+   ```
 
 2. Перейдите в директорию проекта:
 
   ```bash
   cd web-library
+  ```
 
 3. Установите зависимости и client, и server
   
@@ -20,6 +22,7 @@
 
   cd ../server
   npm i (--legacy-peer-deps)
+  ```
 
 ## Запуск
 
@@ -30,16 +33,17 @@
   ```bash
   cd client
   npm run dev
+  ```
 
   Server:
   ```bash
   cd server
   npm run start:dev
+  ```
 
 3. Откройте страницу http://localhost:5173/
 
 4. Войдите в учетную запись уже существующего пользователя:
-  email: test@example.com
-  password: password123
-
+     email: test@example.com
+     password: password123
   Либо зарегистрируйте нового
