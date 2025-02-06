@@ -1,0 +1,7 @@
+{
+  "extends": ["@nestjs/eslint-config"],
+  "rules": {
+    "no-unused-vars": "warn",
+    "prettier/prettier": "off"
+  }
+}
